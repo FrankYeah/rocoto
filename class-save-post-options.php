@@ -609,7 +609,7 @@ if (!class_exists('Foodbakery_Plugin_Functions')) {
 	public function num_format($num) {
 
 	    // $foodbakery_number = number_format((float) $num, 2, '.', '');
-
+  
 	    return $num;
 
 	}
