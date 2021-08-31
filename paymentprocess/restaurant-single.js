@@ -50,7 +50,9 @@ function cs_number_format(num) {
 
     "use strict";
 
-    return parseFloat(Math.round(num * 100) / 100).toFixed(2);
+    return num;
+
+    // return parseFloat(Math.round(num * 100) / 100).toFixed(2);
 
 }
 
